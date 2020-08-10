@@ -4,4 +4,4 @@ project(tiktaktoe)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED on)
 
-add_executable(tiktaktoe ${PROJECT_SOURCE_DIR}/src/main.cpp)
+set(tiktaktoe-source ${PROJECT_SOURCE_DIR}/src/tiktaktoe.cpp ${PROJECT_SOURCE_DIR}/src/tiktaktoe-additions.cpp)
